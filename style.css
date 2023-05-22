@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  
+
+
+}
+/* classes auxiliares*/
+.container{
+    width: 100%;
+    height: 80vh;
+}
+.box{
+    width: 500px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.esconder{
+  overflow-y: hidden;
+}
+/*fontes*/
+h1 {
+  font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/* manipulando as imagens do site */
+#imgti {
+  width: 50%;
+}
+#imgesg {
+  width: 50%;
+}
+/* manipulando as imagens do site */
+
+/* classes do site*/
+
+.toolbar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  font-family: 'Roboto', sans-serif;
+  top: 50%;
+  bottom: 50%;
+  
+}
+.toolbar a{
+  padding: 2dvi;
+  text-decoration: none;
+  cursor: pointer;
+}
+.navbar{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 3dvh;
+  border-bottom: 2px solid #fff;
+  background-color: #11753b;
+}
+.navbar a{
+  padding: 1dvh;
+  text-decoration: none;
+  
+}
+body{
+    background: linear-gradient(to right, #2C7744, #5A3F37); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cincor {
+  text-align: center;
+  
+  
+}
+.ti-verde {
+  text-align: center;
+  padding: 5dvh;
+}
+.esg {
+  text-align: center;
+    padding: 5dvh;
+}
+
+/* classes do site*/
+/*seções*/
+.secaoum {
+  margin: 10dvb;
+  
+}
+.secaodois {
+  margin: 10dvb;
+  
+}
+.secaotres {
+  margin: 10dvb;
+  
+}
