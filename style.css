@@ -22,6 +22,37 @@ body{
 }
 /* classes do site */
 
+button{
+  background-color: #333;
+  width: 5vi;
+  height: auto;
+  border-radius: 0.9cqi;
+
+}
+.botao{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+#show-or-hide{
+  text-align: center;
+  
+}
+.part1{
+  display: none;
+  
+  
+}
+.part2{
+  display: none;
+}
+.part3{
+  display: none;
+}
+
+
 /*1ª página */
 .inicio{
   display: flex;
@@ -31,16 +62,8 @@ body{
   transform: translateY(250%);
   
 }
-.inicio a{
-  text-decoration: none;
-  font-family: 'Roboto',sans-serif;
-  cursor: pointer;
-  
-  
-}
-a:hover{
-  color: #0c130e;
-}
+
+
 /*1ª página */
 /*2ª página */
 .cincor{
@@ -104,5 +127,72 @@ a:hover{
   text-align: justify;
   font-style: italic;
   font-weight: bold;
-  tex
+  
+}
+
+
+
+
+/*botão*/
+.switch {
+
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  font-family:'Roboto', 'sans-serif';
+
+} 
+
+input[type=checkbox] {
+height: 0;
+width: 0;
+visibility: hidden;
+}
+
+label {
+cursor: pointer;
+text-indent: -9999px;
+width: 35px;
+height: 20px;
+background: #d0d0d0;
+display: block;
+border-radius: 100px;
+position: relative;
+}
+
+label:after {
+
+content: "";
+position: absolute;
+top: 4px;
+left: 4px;
+width: 12px;
+height: 12px;
+background: #5e5959;
+border-radius: 90px;
+transition: 0.3s;
+
+}
+
+input:checked + label {
+
+background: #00c3ff;
+
+}
+
+input:checked + label:after {
+
+background: #ffffff;  
+left: calc(100% - 5px);
+transform: translateX(-100%);
+
+}
+
+label:active:after {
+
+width: 15px;
+
 }
